@@ -1,33 +1,38 @@
 #!usr/bin/env python3
 
-
-import colorama
 import os
-from colorama import Fore, Back, Style
 
+os.system("pkg install ruby -y")
+os.system("gem install lolcat")
+os.system("pip install --upgrade pip")
 os.system("pip install colorama")
 os.system("pip2 install lolcat")
-os.system("pkg install cowsay") 
+os.system("pkg install cowsay")
+
+import colorama
+
+from colorama import Fore, Back, Style
+
 os.system("clear")
-os.system("cowsay -f eyes  Termux İlk Kuruluma Hoşgeldiniz. ~Loux~ ~~ www.turkhackteam.org ~~ | lolcat -a -d 4")
-os.system("printf 'Yüklenecek Paketler: python2 \n fish \n ruby \n php \n perl \n nmap \n bash \n clang \n nano \n curl \n tar \n zip \n unzip \n tor \n wget \n wcalc \n bmon \n golang \n openssl \n openssh \n toilet \n sl \n vim \n zsh \n fortune' | lolcat -a -d 10")
+os.system("cowsay -f eyes Termux Ilk Kuruluma Hosgeldiniz. ~Loux~ ~~ www.turkhackteam.org ~~ | lolcat -a -d 4")
 
+print(" ")
 
+os.system("printf 'Yuklenecek Paketler: \n python2 \n fish \n ruby \n php \n perl \n nmap \n bash \n clang \n nano \n curl \n tar \n zip \n unzip \n tor \n wget \n wcalc \n bmon \n golang \n openssl \n openssh \n toilet \n sl \n vim \n zsh \n fortune' | lolcat -a -d 10")
+
+print(" ")
 
 
 colorama.init(autoreset=True)
 
-
-input(Fore.CYAN +Style.BRIGHT + "Kurulumu başlatmak için Enter'a basınız....")
+input(Fore.CYAN +Style.BRIGHT + "Kurulumu baslatmak icin Enter'a basiniz....")
 
 
 
 os.system("pkg update -y")
 os.system("pkg upgrade -y")
 os.system("clear")
-os.system("pkg install python")
-os.system("clear")
-os.system("pkg install python2")
+os.system("pkg install python2 -y")
 os.system("clear")
 os.system("pkg install fish -y")
 os.system("clear")
@@ -71,18 +76,23 @@ os.system("pkg install openssl -y")
 os.system("clear")
 os.system("pkg install openssh -y")
 os.system("clear")
-os.system("pkg install toilet")
+os.system("pkg install toilet -y")
 os.system("clear")
-os.system("pkg install sl")
+os.system("pkg install sl -y")
 os.system("clear")
-os.system("pkg install vim")
+os.system("pkg install vim -y")
 os.system("clear")
-os.system("pkg install zsh")
+os.system("pkg install zsh -y")
 os.system("clear")
-os.system("pkg install fortune")
+os.system("pkg install fortune -y")
 os.system("clear")
-os.system("apt update")
+os.system("pkg install tmate -y")
 os.system("clear")
-os.system("apt upgrade")
+os.system("apt update -y")
+os.system("clear")
+os.system("apt upgrade -y")
+os.system("clear")
 
-os.system("printf 'Kurulum Bitmiştir..  ~~ www.turkhackteam.org ~~' | lolcat -a -d 70")
+os.system("printf 'Kurulum Bitmistir..  ~~ www.turkhackteam.org ~~' | lolcat -a -d 70")
+
+print(" ")
