@@ -13,10 +13,10 @@ apt upgrade
 
 pkg install git
 
-pkg install python
+pkg install python -y
 
 https://github.com/asdzekee/louxkurulum.git
 
 # Çalıştırma
 
-python termuxkurulum.py 
+"python termuxkurulum.py" yazdıktan sonra çıkan sorulara "Y" yazınız.
