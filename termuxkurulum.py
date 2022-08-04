@@ -25,6 +25,8 @@ print(" ")
 
 colorama.init(autoreset=True)
 
+print(" ")
+
 input(Fore.CYAN +Style.BRIGHT + "Kurulumu baslatmak icin Enter'a basiniz....")
 
 
